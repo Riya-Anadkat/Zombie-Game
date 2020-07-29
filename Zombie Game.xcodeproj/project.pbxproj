@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		703A5D0024D0547D00065A71 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703A5CFF24D0547D00065A71 /* GameOverScene.swift */; };
+		703A5D0224D06BEB00065A71 /* playerSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 703A5D0124D06BEB00065A71 /* playerSound.wav */; };
 		706413B624CF2408004AC726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706413B524CF2408004AC726 /* AppDelegate.swift */; };
 		706413B824CF2408004AC726 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 706413B724CF2408004AC726 /* GameScene.sks */; };
 		706413BA24CF2408004AC726 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 706413B924CF2408004AC726 /* Actions.sks */; };
@@ -18,7 +20,7 @@
 		706413D124CF2409004AC726 /* Zombie_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706413D024CF2409004AC726 /* Zombie_GameTests.swift */; };
 		706413DC24CF2409004AC726 /* Zombie_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706413DB24CF2409004AC726 /* Zombie_GameUITests.swift */; };
 		706413EA24CF2639004AC726 /* arrowSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 706413E924CF2639004AC726 /* arrowSound.wav */; };
-		706413F124CF304B004AC726 /* playerSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 706413EF24CF304B004AC726 /* playerSound.wav */; };
+		706413F124CF304B004AC726 /* oldPlayerSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 706413EF24CF304B004AC726 /* oldPlayerSound.wav */; };
 		706413F224CF304B004AC726 /* zombieSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 706413F024CF304B004AC726 /* zombieSound.wav */; };
 		706413F524CF5886004AC726 /* dragonfont in Resources */ = {isa = PBXBuildFile; fileRef = 706413F324CF385B004AC726 /* dragonfont */; };
 		706413F724CF599B004AC726 /* theboldfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 706413F624CF599B004AC726 /* theboldfont.ttf */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		703A5CFF24D0547D00065A71 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		703A5D0124D06BEB00065A71 /* playerSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = playerSound.wav; sourceTree = "<group>"; };
 		706413B224CF2408004AC726 /* Zombie Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zombie Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		706413B524CF2408004AC726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		706413B724CF2408004AC726 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -59,7 +63,7 @@
 		706413DB24CF2409004AC726 /* Zombie_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zombie_GameUITests.swift; sourceTree = "<group>"; };
 		706413DD24CF2409004AC726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		706413E924CF2639004AC726 /* arrowSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = arrowSound.wav; sourceTree = "<group>"; };
-		706413EF24CF304B004AC726 /* playerSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = playerSound.wav; sourceTree = "<group>"; };
+		706413EF24CF304B004AC726 /* oldPlayerSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = oldPlayerSound.wav; sourceTree = "<group>"; };
 		706413F024CF304B004AC726 /* zombieSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = zombieSound.wav; sourceTree = "<group>"; };
 		706413F324CF385B004AC726 /* dragonfont */ = {isa = PBXFileReference; lastKnownFileType = file; path = dragonfont; sourceTree = "<group>"; };
 		706413F624CF599B004AC726 /* theboldfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theboldfont.ttf; sourceTree = "<group>"; };
@@ -117,13 +121,15 @@
 				706413B724CF2408004AC726 /* GameScene.sks */,
 				706413B924CF2408004AC726 /* Actions.sks */,
 				706413BB24CF2408004AC726 /* GameScene.swift */,
+				703A5CFF24D0547D00065A71 /* GameOverScene.swift */,
 				706413BD24CF2408004AC726 /* GameViewController.swift */,
 				706413BF24CF2408004AC726 /* Main.storyboard */,
 				706413C224CF2409004AC726 /* Assets.xcassets */,
 				706413F324CF385B004AC726 /* dragonfont */,
 				706413F624CF599B004AC726 /* theboldfont.ttf */,
 				706413E924CF2639004AC726 /* arrowSound.wav */,
-				706413EF24CF304B004AC726 /* playerSound.wav */,
+				706413EF24CF304B004AC726 /* oldPlayerSound.wav */,
+				703A5D0124D06BEB00065A71 /* playerSound.wav */,
 				706413F024CF304B004AC726 /* zombieSound.wav */,
 				706413C424CF2409004AC726 /* LaunchScreen.storyboard */,
 				706413C724CF2409004AC726 /* Info.plist */,
@@ -260,9 +266,10 @@
 				706413F724CF599B004AC726 /* theboldfont.ttf in Resources */,
 				706413C324CF2409004AC726 /* Assets.xcassets in Resources */,
 				706413C624CF2409004AC726 /* LaunchScreen.storyboard in Resources */,
+				703A5D0224D06BEB00065A71 /* playerSound.wav in Resources */,
 				706413EA24CF2639004AC726 /* arrowSound.wav in Resources */,
 				706413BA24CF2408004AC726 /* Actions.sks in Resources */,
-				706413F124CF304B004AC726 /* playerSound.wav in Resources */,
+				706413F124CF304B004AC726 /* oldPlayerSound.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +296,7 @@
 			files = (
 				706413BC24CF2408004AC726 /* GameScene.swift in Sources */,
 				706413BE24CF2408004AC726 /* GameViewController.swift in Sources */,
+				703A5D0024D0547D00065A71 /* GameOverScene.swift in Sources */,
 				706413B624CF2408004AC726 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
