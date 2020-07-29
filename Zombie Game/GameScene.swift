@@ -27,7 +27,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     let arrowSound = SKAction.playSoundFileNamed("arrowSound.wav", waitForCompletion: false)
     let zombieSound = SKAction.playSoundFileNamed("zombieSound.wav", waitForCompletion: false)
-    let playerSound = SKAction.playSoundFileNamed("playerSound.wav", waitForCompletion: false)
+//    let playerSound = SKAction.playSoundFileNamed("playerSound.wav", waitForCompletion: false)
     
     enum gameState{
         case preGame
