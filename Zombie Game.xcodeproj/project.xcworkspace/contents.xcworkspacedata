@@ -2,6 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../README.md">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "demo">
+   </Group>
+   <FileRef
       location = "self:Zombie Game.xcodeproj">
    </FileRef>
 </Workspace>
